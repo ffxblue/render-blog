@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Go at Fairfax Media
-date:       2018-08-04 07:55:29
+date:       2018-08-06 12:00:00 +1000
 summary:    This is the line sits under the headline on the homepage.
 categories: golang
 author:     Pavel Nikolov

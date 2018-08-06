@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Example post
-date:       2014-06-10 12:31:19
+date:       2018-08-05 12:00:00 +1000
 summary:    See what the different elements looks like.
 categories: jekyll
 ---
