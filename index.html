@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% assign posts_count = paginator.posts | size %}
+{% if posts_count > 0 %}
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post">
+        <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+        <h3 class="post-title"><a href="{{ post.url }}" class="post-link">{{ post.title }}</a></h3>
+        <span class="post-summary">
+          {% if post.summary %}
+            {{ post.summary }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+        </span>
+      </div>
+    {% endfor %}
+  </div>
+  {% include pagination.html %}
+{% else %}
+  <h1 class="text-center">Coming soon...</h1>
+{% endif %}

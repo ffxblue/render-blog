@@ -1,0 +1,27 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: $font-family;
+}
+
+.post-title {
+  font-family: $heading-font-family;
+  font-size: $heading-font-size;
+  font-weight: $heading-font-weight;
+  line-height: $heading-line-height;
+  padding-bottom: 0.9rem;
+}
+
+.post-title .post-link{
+  color: #333;
+}
+
+p {
+  color: #333;
+}
+
+small {
+  font-size: 0.707rem;
+}

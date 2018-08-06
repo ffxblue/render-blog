@@ -1,0 +1,9 @@
+<div class="share-page">
+  <p>Share this post!</p>
+  <div class="share-links">
+    <a href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.facebook }}"><i data-feather="facebook"></i></a>
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.twitter }}"><i data-feather="twitter"></i></a>
+    <a href="http://reddit.com/submit?url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;title={{ page.title | cgi_escape }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.reddit }}">Reddit</a>
+    <a onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;t={{ page.title | cgi_escape }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.hackernews }}">Hacker News</a>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+# Settings
+title: Fairfax Product/Tech
+description: Summary goes here.
+email: email@example.com
+timezone: Australia/Sydney
+date_format: "%b %-d, %Y"
+paginate: 4
+navigation:
+ - pages/about.md
+ - pages/contact.md
+permalink: pretty
+sass:
+  style: compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
