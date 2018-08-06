@@ -27,9 +27,3 @@ Then navigate to `localhost:4000` in your browser to see the site.
 ## Credits
 
 Style inspired by [pixyll](https://github.com/johno/pixyll).
-
-## Todo
-- [ ] Tidy top nav (logo/spacing)
-- [ ] Tidy posts/pages css
-- [ ] Add example posts
-- [ ] Push to github
