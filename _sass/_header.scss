@@ -1,0 +1,44 @@
+body > header {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  .logo {
+    background-image: url('/img/logo.png');
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: 66px 50px;
+    width: 66px;
+    height: 50px;
+  }
+  nav {
+    line-height: 1;
+    padding-top: 0.8em;
+    a {
+      padding-left: 1.1em;
+    }
+  }
+  .social-icons {
+    line-height: 1;
+    padding-top: 1em;
+  }
+}
+
+@media (min-width: 576px) {
+  body > header {
+    .logo {
+      margin-left: inherit;
+      margin-right: inherit;
+    }
+    nav {
+      display: inline-block;
+      padding-top: 0;
+    }
+    .social-icons {
+      padding-left: 1.1em;
+      display: inline-block;
+    }
+  }
+}

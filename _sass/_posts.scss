@@ -1,11 +1,12 @@
 .posts {
   margin-bottom: 6em;
-
   .post {
     margin-bottom: 2em;
     border-bottom: thin solid #f3f3f3;
     padding-bottom: 3em;
-
+    .post-meta {
+      padding: 0 0 0.5em;
+    }
     &:last-child {
       margin-bottom: 0;
       border-bottom: none;
@@ -15,10 +16,13 @@
 }
 
 .post-meta {
-  // width: auto;
   font-weight: 300;
   margin: 0;
-  padding: .25em 0;
+  padding: 0 0 2em;
   color: #7a7a7a;
   font-style: italic;
+}
+
+.share-page {
+  margin-top: 3em;
 }
